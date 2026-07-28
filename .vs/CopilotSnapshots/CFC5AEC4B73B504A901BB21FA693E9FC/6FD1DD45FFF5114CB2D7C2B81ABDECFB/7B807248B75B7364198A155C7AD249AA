@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cyfrowo.MainPage"
+             BackgroundColor="#FDF5E6" 
+             Title="Menu Główne">
+
+    <Grid>
+        <VerticalStackLayout Spacing="20"
+                             VerticalOptions="Center"
+                             HorizontalOptions="Center"
+                             Padding="30">
+
+            <Label Text="CYFROWO"
+                   FontSize="40"
+                   FontAttributes="Bold"
+                   TextColor="#2F4F4F"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Zgadnij ukryty kod.&#10;Zielony = Trafienie, Żółty = Złe miejsce."
+                   FontSize="16"
+                   TextColor="#556B2F"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   FontAttributes="Italic"/>
+
+            <Label Text="Wybierz poziom trudności:"
+                   TextColor="#2F4F4F"
+                   HorizontalOptions="Center"
+                   Margin="0,10,0,0"/>
+
+            <Picker x:Name="DifficultyPicker"
+                    Title="Poziom trudności"
+                    TextColor="#2F4F4F"
+                    TitleColor="#2F4F4F"
+                    BackgroundColor="White">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Łatwy (3 cyfry)</x:String>
+                        <x:String>Średni (4 cyfry)</x:String>
+                        <x:String>Trudny (5 cyfr)</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+                <Picker.SelectedIndex>0</Picker.SelectedIndex>
+            </Picker>
+
+            <Button Text="GRAJ"
+                    Clicked="OnPlayClicked"
+                    BackgroundColor="#2F4F4F"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="50"/>
+
+            <Button Text="WYJŚCIE"
+                    Clicked="OnExitClicked"
+                    BackgroundColor="#A52A2A"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="50"/>
+
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

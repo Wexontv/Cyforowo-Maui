@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wexon\\Desktop\\PROJEKT MAUI\\Cyfrowo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|c:\\users\\wexon\\desktop\\projekt maui\\cyfrowo\\cyfrowo\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|solutionrelative:cyfrowo\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|c:\\users\\wexon\\desktop\\projekt maui\\cyfrowo\\cyfrowo\\gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|solutionrelative:cyfrowo\\gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|c:\\users\\wexon\\desktop\\projekt maui\\cyfrowo\\cyfrowo\\gamestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|solutionrelative:cyfrowo\\gamestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|c:\\users\\wexon\\desktop\\projekt maui\\cyfrowo\\cyfrowo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|solutionrelative:cyfrowo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|c:\\users\\wexon\\desktop\\projekt maui\\cyfrowo\\cyfrowo\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|solutionrelative:cyfrowo\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GamePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wexon\\Desktop\\PROJEKT MAUI\\Cyfrowo\\Cyfrowo\\GamePage.xaml.cs",
+              "RelativeDocumentMoniker": "Cyfrowo\\GamePage.xaml.cs",
+              "ToolTip": "C:\\Users\\wexon\\Desktop\\PROJEKT MAUI\\Cyfrowo\\Cyfrowo\\GamePage.xaml.cs",
+              "RelativeToolTip": "Cyfrowo\\GamePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T17:39:08.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GamePage.xaml",
+              "DocumentMoniker": "C:\\Users\\wexon\\Desktop\\PROJEKT MAUI\\Cyfrowo\\Cyfrowo\\GamePage.xaml",
+              "RelativeDocumentMoniker": "Cyfrowo\\GamePage.xaml",
+              "ToolTip": "C:\\Users\\wexon\\Desktop\\PROJEKT MAUI\\Cyfrowo\\Cyfrowo\\GamePage.xaml",
+              "RelativeToolTip": "Cyfrowo\\GamePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T17:39:03.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wexon\\Desktop\\PROJEKT MAUI\\Cyfrowo\\Cyfrowo\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Cyfrowo\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wexon\\Desktop\\PROJEKT MAUI\\Cyfrowo\\Cyfrowo\\MainPage.xaml.cs",
+              "RelativeToolTip": "Cyfrowo\\MainPage.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwEQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T17:38:23.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wexon\\Desktop\\PROJEKT MAUI\\Cyfrowo\\Cyfrowo\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Cyfrowo\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\wexon\\Desktop\\PROJEKT MAUI\\Cyfrowo\\Cyfrowo\\MainPage.xaml",
+              "RelativeToolTip": "Cyfrowo\\MainPage.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T17:38:27.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameStats.cs",
+              "DocumentMoniker": "C:\\Users\\wexon\\Desktop\\PROJEKT MAUI\\Cyfrowo\\Cyfrowo\\GameStats.cs",
+              "RelativeDocumentMoniker": "Cyfrowo\\GameStats.cs",
+              "ToolTip": "C:\\Users\\wexon\\Desktop\\PROJEKT MAUI\\Cyfrowo\\Cyfrowo\\GameStats.cs",
+              "RelativeToolTip": "Cyfrowo\\GameStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T17:37:58.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

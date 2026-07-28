@@ -1,0 +1,31 @@
+﻿using Windows.Gaming.Input;
+
+namespace Cyfrowo
+{
+    public partial class MainPage : ContentPage
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+        }
+
+        private async void OnPlayClicked(object sender, EventArgs e)
+        {
+            // Odczytujemy, co wybrał użytkownik (indeks 0, 1 lub 2)
+            int selectedIndex = DifficultyPicker.SelectedIndex;
+
+            // Mapujemy indeks na liczbę cyfr:
+            // Indeks 0 -> 3 cyfry, Indeks 1 -> 4 cyfry, Indeks 2 -> 5 cyfr
+            int codeLength = selectedIndex + 3;
+
+            // Przechodzimy do strony gry, przekazując liczbę cyfr do konstruktora
+            await Navigation.PushAsync(new GamePage(codeLength));
+        }
+
+        private void OnExitClicked(object sender, EventArgs e)
+        {
+            // Zamknięcie aplikacji
+            Application.Current.Quit();
+        }
+    }
+}

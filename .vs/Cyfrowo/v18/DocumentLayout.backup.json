@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wexon\\Downloads\\Projekt zaliczeniowy\\Cyfrowo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|c:\\users\\wexon\\downloads\\projekt zaliczeniowy\\cyfrowo\\cyfrowo\\gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|solutionrelative:cyfrowo\\gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|c:\\users\\wexon\\downloads\\projekt zaliczeniowy\\cyfrowo\\cyfrowo\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|solutionrelative:cyfrowo\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|c:\\users\\wexon\\downloads\\projekt zaliczeniowy\\cyfrowo\\cyfrowo\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|solutionrelative:cyfrowo\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|c:\\users\\wexon\\downloads\\projekt zaliczeniowy\\cyfrowo\\cyfrowo\\cyfrowo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|solutionrelative:cyfrowo\\cyfrowo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|c:\\users\\wexon\\downloads\\projekt zaliczeniowy\\cyfrowo\\cyfrowo\\gamestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|solutionrelative:cyfrowo\\gamestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|c:\\users\\wexon\\downloads\\projekt zaliczeniowy\\cyfrowo\\cyfrowo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{663271A7-3131-4504-BC14-0E5211C2D32B}|Cyfrowo\\Cyfrowo.csproj|solutionrelative:cyfrowo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cyfrowo.csproj",
+              "DocumentMoniker": "C:\\Users\\wexon\\Downloads\\Projekt zaliczeniowy\\Cyfrowo\\Cyfrowo\\Cyfrowo.csproj",
+              "RelativeDocumentMoniker": "Cyfrowo\\Cyfrowo.csproj",
+              "ToolTip": "C:\\Users\\wexon\\Downloads\\Projekt zaliczeniowy\\Cyfrowo\\Cyfrowo\\Cyfrowo.csproj",
+              "RelativeToolTip": "Cyfrowo\\Cyfrowo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-28T10:50:31.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GamePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wexon\\Downloads\\Projekt zaliczeniowy\\Cyfrowo\\Cyfrowo\\GamePage.xaml.cs",
+              "RelativeDocumentMoniker": "Cyfrowo\\GamePage.xaml.cs",
+              "ToolTip": "C:\\Users\\wexon\\Downloads\\Projekt zaliczeniowy\\Cyfrowo\\Cyfrowo\\GamePage.xaml.cs",
+              "RelativeToolTip": "Cyfrowo\\GamePage.xaml.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAmwN4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T10:49:04.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GamePage.xaml",
+              "DocumentMoniker": "C:\\Users\\wexon\\Downloads\\Projekt zaliczeniowy\\Cyfrowo\\Cyfrowo\\GamePage.xaml",
+              "RelativeDocumentMoniker": "Cyfrowo\\GamePage.xaml",
+              "ToolTip": "C:\\Users\\wexon\\Downloads\\Projekt zaliczeniowy\\Cyfrowo\\Cyfrowo\\GamePage.xaml",
+              "RelativeToolTip": "Cyfrowo\\GamePage.xaml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwCMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-28T10:49:04.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wexon\\Downloads\\Projekt zaliczeniowy\\Cyfrowo\\Cyfrowo\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Cyfrowo\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wexon\\Downloads\\Projekt zaliczeniowy\\Cyfrowo\\Cyfrowo\\MainPage.xaml.cs",
+              "RelativeToolTip": "Cyfrowo\\MainPage.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T10:49:04.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wexon\\Downloads\\Projekt zaliczeniowy\\Cyfrowo\\Cyfrowo\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Cyfrowo\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\wexon\\Downloads\\Projekt zaliczeniowy\\Cyfrowo\\Cyfrowo\\MainPage.xaml",
+              "RelativeToolTip": "Cyfrowo\\MainPage.xaml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwFMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-28T10:49:04.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameStats.cs",
+              "DocumentMoniker": "C:\\Users\\wexon\\Downloads\\Projekt zaliczeniowy\\Cyfrowo\\Cyfrowo\\GameStats.cs",
+              "RelativeDocumentMoniker": "Cyfrowo\\GameStats.cs",
+              "ToolTip": "C:\\Users\\wexon\\Downloads\\Projekt zaliczeniowy\\Cyfrowo\\Cyfrowo\\GameStats.cs",
+              "RelativeToolTip": "Cyfrowo\\GameStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T10:49:04.71Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

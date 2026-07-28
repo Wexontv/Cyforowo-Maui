@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cyfrowo.MainPage"
+             BackgroundColor="#FDF5E6" 
+             Title="Menu Główne">
+
+    <Grid RowDefinitions="*, Auto">
+
+        <VerticalStackLayout Grid.Row="0"
+                             Spacing="20"
+                             VerticalOptions="Center"
+                             HorizontalOptions="Center">
+
+            <Label Text="CYFROWO"
+                   FontSize="40"
+                   FontAttributes="Bold"
+                   TextColor="#2F4F4F"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Zgadnij ukryty kod.&#10; Zielony = Trafienie, Żółty = Złe miejsce."
+                   FontSize="16"
+                   TextColor="#556B2F"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   FontAttributes="Italic"/>
+
+            <Label Text="Wybierz poziom trudności:"
+                   TextColor="#2F4F4F"
+                   HorizontalOptions="Center"
+                   Margin="0,10,0,0"/>
+
+            <Picker x:Name="DifficultyPicker"
+                    Title="Poziom trudności"
+                    TextColor="#2F4F4F"
+                    TitleColor="#2F4F4F"
+                    BackgroundColor="White">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Łatwy (3 cyfry, 6 prób, powtórzenia: nie)</x:String>
+                        <x:String>Średni (4 cyfry, 5 prób, powtórzenia: nie)</x:String>
+                        <x:String>Trudny (5 cyfr, 4 próby, powtórzenia: tak)</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+                <Picker.SelectedIndex>0</Picker.SelectedIndex>
+            </Picker>
+
+            <Button Text="GRAJ"
+                    Clicked="KlikniecieGraj"
+                    BackgroundColor="#2F4F4F"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="50"/>
+
+            <Button Text="WYJŚCIE"
+                    Clicked="KlikniecieWyjscie"
+                    BackgroundColor="#A52A2A"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="50"/>
+
+        </VerticalStackLayout>
+
+        <VerticalStackLayout Grid.Row="1" 
+                             Padding="20" 
+                             BackgroundColor="#F0E6D2">
+            <Label x:Name="EtykietaStatystyk"
+                   Text="Ładowanie..."
+                   FontSize="14"
+                   TextColor="#A52A2A"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"/>
+
+            <Button Text="Wyczyść statystyki"
+                    Clicked="KlikniecieReset"
+                    FontSize="12"
+                    BackgroundColor="Transparent"
+                    TextColor="#555"
+                    HorizontalOptions="Center"
+                    HeightRequest="30"/>
+        </VerticalStackLayout>
+
+    </Grid>
+</ContentPage>

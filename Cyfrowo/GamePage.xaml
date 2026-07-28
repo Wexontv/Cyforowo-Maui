@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cyfrowo.GamePage"
+             BackgroundColor="#FDF5E6"
+             Title="Rozgrywka">
+
+    <Grid RowDefinitions="*, Auto, Auto" Padding="20" RowSpacing="15">
+
+        <VerticalStackLayout x:Name="BoardContainer"
+                             Grid.Row="0"
+                             VerticalOptions="Center"
+                             Spacing="10">
+        </VerticalStackLayout>
+
+        <Grid Grid.Row="1" RowDefinitions="Auto, Auto, Auto, Auto" ColumnDefinitions="*,*,*" RowSpacing="10" ColumnSpacing="10">
+
+            <Button Text="1" Clicked="KlikniecieCyfry" Grid.Row="0" Grid.Column="0" Style="{StaticResource KeyBtn}"/>
+            <Button Text="2" Clicked="KlikniecieCyfry" Grid.Row="0" Grid.Column="1" Style="{StaticResource KeyBtn}"/>
+            <Button Text="3" Clicked="KlikniecieCyfry" Grid.Row="0" Grid.Column="2" Style="{StaticResource KeyBtn}"/>
+
+            <Button Text="4" Clicked="KlikniecieCyfry" Grid.Row="1" Grid.Column="0" Style="{StaticResource KeyBtn}"/>
+            <Button Text="5" Clicked="KlikniecieCyfry" Grid.Row="1" Grid.Column="1" Style="{StaticResource KeyBtn}"/>
+            <Button Text="6" Clicked="KlikniecieCyfry" Grid.Row="1" Grid.Column="2" Style="{StaticResource KeyBtn}"/>
+
+            <Button Text="7" Clicked="KlikniecieCyfry" Grid.Row="2" Grid.Column="0" Style="{StaticResource KeyBtn}"/>
+            <Button Text="8" Clicked="KlikniecieCyfry" Grid.Row="2" Grid.Column="1" Style="{StaticResource KeyBtn}"/>
+            <Button Text="9" Clicked="KlikniecieCyfry" Grid.Row="2" Grid.Column="2" Style="{StaticResource KeyBtn}"/>
+
+            <Button Text="Usuń" Clicked="KlikniecieUsun" Grid.Row="3" Grid.Column="0" BackgroundColor="#A52A2A" TextColor="White"/>
+            <Button Text="0" Clicked="KlikniecieCyfry" Grid.Row="3" Grid.Column="1" Style="{StaticResource KeyBtn}"/>
+            <Button Text="Sprawdź" Clicked="KlikniecieSprawdz" Grid.Row="3" Grid.Column="2" BackgroundColor="#2F4F4F" TextColor="White" FontAttributes="Bold"/>
+
+        </Grid>
+
+        <Button Grid.Row="2"
+                Text="Powrót do Menu"
+                Clicked="KliknieciePowrotMenu"
+                BackgroundColor="Transparent"
+                TextColor="#2F4F4F"
+                BorderColor="#2F4F4F"
+                BorderWidth="1"
+                CornerRadius="10"
+                HeightRequest="40"/>
+    </Grid>
+
+    <ContentPage.Resources>
+        <Style x:Key="KeyBtn" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="White"/>
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="BorderColor" Value="Gray"/>
+            <Setter Property="BorderWidth" Value="1"/>
+            <Setter Property="CornerRadius" Value="5"/>
+        </Style>
+    </ContentPage.Resources>
+</ContentPage>
